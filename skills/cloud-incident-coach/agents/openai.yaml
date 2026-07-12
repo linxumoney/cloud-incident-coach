@@ -1,0 +1,7 @@
+interface:
+  display_name: "云事件响应教练"
+  short_description: "先保全证据，再做可逆遏制和恢复"
+  default_prompt: "使用 $cloud-incident-coach 梳理这次云安全事件，先列证据保全，再给影响范围和可逆遏制计划。"
+
+policy:
+  allow_implicit_invocation: true
